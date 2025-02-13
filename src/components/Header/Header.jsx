@@ -1,5 +1,6 @@
 import "./Header.css";
 import Logo from "./Logo";
+import Nav from "./Nav";
 import SearchBar from "./SearchBar";
 
 export default function Header() {
@@ -9,6 +10,8 @@ export default function Header() {
       <Logo></Logo>
       {/* { SearchBar} */}
       <SearchBar />
+      {/* {Nav} */}
+      <Nav />
     </header>
   );
 }
